@@ -1,0 +1,23 @@
+body{
+    background-color: aquamarine;
+}
+
+
+#cell0,#cell1,#cell2,#cell3,#cell4,#cell5,#cell6,#cell7,#cell8{
+    width: 100px;
+    height: 100px;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#grid-container{
+    max-width: 20%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    
+}
+
+    
+   
